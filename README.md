@@ -19,19 +19,23 @@ It is designed as a simple utility for string analysis and educational purposes.
 
 ## Usage
 
-The solution is implemented in JavaScript. You can run the code in any JavaScript environment (browser, Node.js, etc.).  
+The solution is implemented in JavaScript. You can run the code in any JavaScript environment (browser, Node.js, etc.).
 Example usage:
 
 ```javascript
-const sentence = "Hello, how are you?";
-console.log(countVowels(sentence));    // Output: 7
-console.log(countCharacters(sentence)); // Output: 18 (excluding spaces)
-console.log(countWords(sentence));      // Output: 4
+const sentence = "Hello, how are you.";
+console.log(sentence_counter(sentence));
+
+
+// Output
+Words: 4
+Vowels: 7
+Characters: 18
 ```
 
 ## File Structure
 
-- `main.js` – Main logic for sentence analysis
+- `sentence_counter.js` – Main logic for sentence analysis
 
 ## Getting Started
 
@@ -39,11 +43,11 @@ console.log(countWords(sentence));      // Output: 4
    ```bash
    git clone https://github.com/D-Mbithi/Checkpoint-Algorithms-and-its-elements.git
    ```
-2. Open `main.js` and run it in your preferred JavaScript environment.
+2. Open `sentence_counter.js` and run it in your preferred JavaScript environment.
 
 ## Contributing
 
-Contributions are welcome!  
+Contributions are welcome!
 Feel free to open issues or submit pull requests for improvements or bug fixes.
 
 ## License
