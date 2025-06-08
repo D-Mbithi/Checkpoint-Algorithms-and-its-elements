@@ -1,7 +1,3 @@
-Here’s a suggested README.md for your repository:
-
----
-
 # Checkpoint-Algorithms-and-its-elements
 
 Solution to algorithm to count vowels, characters, and words in a sentence.
